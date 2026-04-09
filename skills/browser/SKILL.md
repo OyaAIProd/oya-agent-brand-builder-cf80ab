@@ -5,7 +5,14 @@ description: "Browse the web, shop on any site, post on X and LinkedIn, fill for
 category: browser
 icon: globe
 skill_type: mcp
-catalog_type: core
+catalog_type: platform
+resource_requirements:
+  - env_var: BROWSER_API_KEY
+    name: "Browser API Key"
+    description: "API key for the browser automation server"
+  - env_var: BROWSER_API_BASE
+    name: "Browser API Base URL"
+    description: "Base URL of the browser automation server"
 tool_schema:
   - type: function
     function:
