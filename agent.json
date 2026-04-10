@@ -253,11 +253,6 @@
       "platform": "google-sheets",
       "name": "Google Sheets \u2014 aimarketing@oya.ai",
       "is_active": true
-    },
-    {
-      "platform": "facebook-messenger",
-      "name": "Facebook Messenger Gateway",
-      "is_active": true
     }
   ],
   "routines": [
